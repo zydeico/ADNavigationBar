@@ -1,0 +1,6 @@
+framework module ADNavigationBar {
+  umbrella header "ADNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

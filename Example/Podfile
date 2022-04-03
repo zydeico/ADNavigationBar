@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ADNavigationBar_Example' do
+  pod 'ADNavigationBar', :path => '../'
+
+  target 'ADNavigationBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

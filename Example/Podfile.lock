@@ -1,0 +1,25 @@
+PODS:
+  - ADNavigationBar (0.1.0):
+    - Motion (~> 3.1)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+
+DEPENDENCIES:
+  - ADNavigationBar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Motion
+
+EXTERNAL SOURCES:
+  ADNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADNavigationBar: 3e151582f0e1837ecda86496b4e7a79e7d18f4a0
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+
+PODFILE CHECKSUM: 089d4ab2cdab64b7ef86989d5e5923594eff8cbf
+
+COCOAPODS: 1.11.3
