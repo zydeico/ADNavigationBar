@@ -7,116 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02CE3EB7EE5B35AE5BA501802634BEC8 /* MotionViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253585F5EB6452C94731BE5D755B3C22 /* MotionViewTransition.swift */; };
-		0703AF64A0E29F7F63487332A121A711 /* Motion+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB57E925748ECC9B5EE6DDE1350907 /* Motion+UIViewController.swift */; };
-		09D63B3889A77A35EBE7AA7916C7F3B5 /* MotionSnapshotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC737EB9E1EC624557A84CF7BE70E731 /* MotionSnapshotType.swift */; };
-		0B069E3C9E7154E2650936DE6A431379 /* Motion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F64A740A750E17CB5B978ADB6F49D04 /* Motion-dummy.m */; };
-		0DBE8AC1ED5E8ECCD946CBC3D11887EB /* MotionCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F3F2E75A7D752AC2E33F31FB64A5C /* MotionCoreAnimationViewContext.swift */; };
-		1168A76154637DFCDFD51948CE3D390A /* ADNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D97E75E6BFF46FE189E2B049975B8A /* ADNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13114D3E99D352DECA302DF586090300 /* MotionTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78047A87D270067C92417BC4DE34770 /* MotionTransition+Complete.swift */; };
-		194F2AF2EF4D2084C96134ACB1FA4074 /* MotionCoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC973FC5FDA1EE2801CF07AA5B02054 /* MotionCoreAnimator.swift */; };
-		1F56BE29C903642016FA08966A3973A3 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C75DA76DA8D879DEDAFB8A81160299 /* MotionTransition+UITabBarControllerDelegate.swift */; };
-		25057E2CFD9FF337915854B3D23EF37B /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D835DAEE7DA0CBE98B75842C88A5F6 /* SourcePreprocessor.swift */; };
-		27520DA1DF45B1DF88B88A52C303BCA0 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B1583FF247D7C12B01B943107C909 /* CascadePreprocessor.swift */; };
-		2C49AA9161736FBF4614E8D2FD69DCA4 /* MotionProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A33922A3FC42ABDDC376C0EF43CAA /* MotionProgressRunner.swift */; };
-		321E6A0D18F3AB273223DD373A208D8A /* MotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF357448A446B3E6D6C9AC312682CBC /* MotionTransitionObserver.swift */; };
-		32F631D172BD7B1A4B973998C62BACEA /* Motion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE5278BDC0F3252B6EBD9CC1472C70F /* Motion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43E49421D8A71DCDFEC2461DCF54A79B /* ADNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A94EC5A98B67962892051B423F78DB /* ADNavigationBar-dummy.m */; };
+		0009FC4D8CC90EF7C26CF75C2D72701A /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3B2436A8A888DD82DA59718D32B05 /* MotionAnimator.swift */; };
+		05A01C63F25B8C634D8E59FAD629A421 /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A152697FCCFDC2BF27F8EBEFE1794DA5 /* MotionTargetState.swift */; };
+		085117DEF854030A6F44FE887EBA4F8A /* MotionAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2CAE8254859FA01C56CD20A90331B /* MotionAnimatorViewContext.swift */; };
+		0C6EEE7F4A1641DCD59A359DAF0096AA /* MotionTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFEB3339D6E3BE2B1FF0E8D7AA7DD04 /* MotionTransition+CustomTransition.swift */; };
+		0E3BB548CDFE7F7C501AC938A06E372B /* MotionViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253585F5EB6452C94731BE5D755B3C22 /* MotionViewTransition.swift */; };
+		0EB615FC5B407A05BEA5867D475D820C /* Motion+CG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32972047F31D48A0E368E2DF7E905115 /* Motion+CG.swift */; };
+		143D123215B8919D2A2C1BEDD7D3B4D6 /* Motion+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54B8C1FCA757C77361614FA723E424 /* Motion+Array.swift */; };
+		166F7FAE671BCC47E62DD466D851CAD3 /* MotionViewOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4031C6412BD02866E6F34AC826891C6E /* MotionViewOrderStrategy.swift */; };
+		19B7AAB4D9BDB181BFA4015D4DECA3D9 /* MotionSnapshotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC737EB9E1EC624557A84CF7BE70E731 /* MotionSnapshotType.swift */; };
+		1F4543C5779AA5DDDC9322D106A40CE2 /* Motion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F64A740A750E17CB5B978ADB6F49D04 /* Motion-dummy.m */; };
+		2A85DD83E7C307D5F364BF78AC69A1F9 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A5136AF41BC45C4F6D3B2C4064017 /* MotionAnimation.swift */; };
+		30AFBF7C7E2F69C068F741AF94D2F3AD /* MotionProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A33922A3FC42ABDDC376C0EF43CAA /* MotionProgressRunner.swift */; };
+		33FBE36F7398278089F811391E2672D1 /* ADNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3855DC0AF916E7BD3ABBD36B287399E /* ADNavigationBar-dummy.m */; };
+		3DC4C3C427BFB973F976A8341A4B30BE /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421ABD8B15558AA6476ED3EF297E1AE4 /* MotionPlugin.swift */; };
+		3DEF0B10605F93CB1275479EE9C3D8B8 /* MotionViewTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F02BACF0245812922C0B7649E4A32 /* MotionViewTransitionAnimator.swift */; };
+		3F541A392EF57D7BAD0C609C65FEA20F /* MotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A477A1EDE31EE42CA50F053A324A0F0 /* MotionContext.swift */; };
 		44DC20D05C93405A42869EBF190D58F0 /* Pods-ADNavigationBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9CD8F4DB9EE1DBBA630834BA1121C7 /* Pods-ADNavigationBar_Example-dummy.m */; };
-		4C6619CD891CE88617C5F6A59C4C2377 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254669F7538CE28C8CB5060CF850A935 /* ConditionalPreprocessor.swift */; };
-		50C601CD07FEF170F41C6CC52490B63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		559D28260B7D6A8AE06EC03AB4A4625C /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF19C7962CDBCE52ABB750FA9AD397 /* Application.swift */; };
-		567C6DF8A903F6A34C79C994DD5F80AD /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3B2436A8A888DD82DA59718D32B05 /* MotionAnimator.swift */; };
-		573FD105CEE2E131440C01D500AC9B18 /* Motion+CAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD8E0195B61824F96FBDD37D4E16DA /* Motion+CAMediaTimingFunction.swift */; };
-		580715AAE9563F95B40EC1DFE206303C /* MotionCorePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF6E0874C126C5BA54C4DDD7F8A41 /* MotionCorePreprocessor.swift */; };
-		6148BE7FCC32F3AD03EE6FC81D639FBE /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E03427FBAE3AF467B94D30BE5CF540 /* MatchPreprocessor.swift */; };
-		6588388536ECB94BBB46A5AA64DAAA6A /* MotionTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B31A6EEB334ADB6DC1351FEF6E82C4 /* MotionTransition+UINavigationControllerDelegate.swift */; };
-		668D0CC8BD65F554A3A1B780AFB5F588 /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A152697FCCFDC2BF27F8EBEFE1794DA5 /* MotionTargetState.swift */; };
-		6B154C07FFBC5C8F64748826EAA9B5F8 /* MotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A477A1EDE31EE42CA50F053A324A0F0 /* MotionContext.swift */; };
-		6D1FF7E173252709D538847B2A0F2394 /* MotionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44712BC02A4AF4FCE1AB8FEFA97D44 /* MotionPreprocessor.swift */; };
-		6DFCCB4DEE507D318798B29A08132D90 /* Motion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D09AF2296E13481D2E687FA6C826A /* Motion+UIView.swift */; };
-		6FA2893F785F7465A93FF7271573C581 /* MotionCoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBC75744BB3F508B7B4401B2051AB5 /* MotionCoordinateSpace.swift */; };
+		4EF966EE8130D2839A904A400F617D08 /* MotionTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD5FBBF142E16F179B354E5B62E7C3 /* MotionTransition+Interactive.swift */; };
+		54AAAB9E76BE613D303B460FD7C68CED /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E03427FBAE3AF467B94D30BE5CF540 /* MatchPreprocessor.swift */; };
+		5825E1C9DC95D4A0F23FC7F4DF763D20 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B1583FF247D7C12B01B943107C909 /* CascadePreprocessor.swift */; };
+		5844762BE766D88DFCF894D7B95FDEDC /* MotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC68DD01B5263F9332E009CC5507159 /* MotionAnimationState.swift */; };
+		584F1DECC27929F128F9697BF6CD45AA /* MotionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C36F24D3503BAE41021BF1C99BB207 /* MotionTransition.swift */; };
+		5881FD9FF5E5064612AA71F9CA944232 /* MotionViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98038E4AAE5BABF45091B3CDAD147CD9 /* MotionViewPropertyViewContext.swift */; };
+		58DBE22AF51136108E5DC2E4755712C2 /* TransitionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1CCF844729E7919B820F71DFC4C61 /* TransitionPreprocessor.swift */; };
+		5FF1DA5A3A2BDA67F01A14BDD7A8CEC5 /* ADNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28D2C6375DAAC3F08EFF163B6232FC /* ADNavigationBar.swift */; };
+		60A4438B8D2CEAA835C50470488E1D9C /* MotionCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985F3F2E75A7D752AC2E33F31FB64A5C /* MotionCoreAnimationViewContext.swift */; };
+		689BEE1E4E996E21D68DB0E84D8955BA /* MotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF357448A446B3E6D6C9AC312682CBC /* MotionTransitionObserver.swift */; };
 		6FBBCC5E20921DC33754A5D8DA023B41 /* Pods-ADNavigationBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E447871EAF70A4C7360267B5CA82DA93 /* Pods-ADNavigationBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		704E3C61D1A42409D647B3A984F13F4B /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11A082F293AFB02FD7E0445ECC67E8 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */; };
-		7977FE6AF61531390BA687D8CA0B1631 /* MotionTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFEB3339D6E3BE2B1FF0E8D7AA7DD04 /* MotionTransition+CustomTransition.swift */; };
-		7AB4936A4C4898FE116F047D692F06CA /* MotionTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AD5FBBF142E16F179B354E5B62E7C3 /* MotionTransition+Interactive.swift */; };
-		8934AA767378E0908C4CA52A5C3880E7 /* MotionTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD434C5203AF055A0FB3D72DF444493E /* MotionTransition+Start.swift */; };
-		8ABB0AD924955DF9C968A58C6F10A6F8 /* MotionTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE057A8F289F35394D6CFED70002D /* MotionTransition+Animate.swift */; };
-		8E19088E5E12365895E2B9B8B01D4FED /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD17D56DFC447E7723E88BB903BB7 /* IgnoreSubviewModifiersPreprocessor.swift */; };
-		94C1E1B52F5E1575A351774AAA754ABD /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421ABD8B15558AA6476ED3EF297E1AE4 /* MotionPlugin.swift */; };
-		9550026AE43AC486F3E39BDCFD22BC12 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032200CB3EEB58DADCF7C84A05D47EF9 /* MotionModifier.swift */; };
-		AB7043D2E06A4C43A2AA8F99FE0495A7 /* MotionViewOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4031C6412BD02866E6F34AC826891C6E /* MotionViewOrderStrategy.swift */; };
-		AE89C5C84320F6F7A89B051396DD7379 /* MotionViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98038E4AAE5BABF45091B3CDAD147CD9 /* MotionViewPropertyViewContext.swift */; };
+		6FE1718ED5F2F8718B2F7AD70A6AB532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		70929B09B699DC789734EC362A295969 /* ADNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0843E829B1C1C7EDFC6BF72D79C15EF2 /* ADNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C97DFA18203CBC1FCAFC77C80B6C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		790A297199F28C312C83765931FC2D1C /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCD17D56DFC447E7723E88BB903BB7 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		8407437B90190FE48BC3A3FECC9BEB73 /* Motion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE5278BDC0F3252B6EBD9CC1472C70F /* Motion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A6C3F46B9C5E11FB0D13FF0E7DF40F /* ADNavigationBarViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = F1B97730D5246BB4ADD5F88AB7C1C1E0 /* ADNavigationBarViewController.xib */; };
+		89E769093A927F260D912E99435B4AE2 /* Motion+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737199B6693263863718F62CAB89F13 /* Motion+UIKit.swift */; };
+		8C11C1004998D58156E07811C39ED7AC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10240E6B5653F9C5EF9EBDF4F99CDBB /* ReplaceMe.swift */; };
+		8CD1CB00E307CE286A33E2BCBEA6579E /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D835DAEE7DA0CBE98B75842C88A5F6 /* SourcePreprocessor.swift */; };
+		9965CBB59EA2FB746165C79AA525C8F1 /* Motion+CAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD8E0195B61824F96FBDD37D4E16DA /* Motion+CAMediaTimingFunction.swift */; };
+		99FD3714872CED17971FE622D6C731C7 /* MotionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44712BC02A4AF4FCE1AB8FEFA97D44 /* MotionPreprocessor.swift */; };
+		9FC7C4D80AA245EA96DEC3B504640577 /* MotionTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78047A87D270067C92417BC4DE34770 /* MotionTransition+Complete.swift */; };
+		A06A8C234D38A8411E6141EC923C59A5 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032200CB3EEB58DADCF7C84A05D47EF9 /* MotionModifier.swift */; };
+		A478C47A728A3D14B645CF9E249ED377 /* MotionCAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3B14C0773C1A40F0BCD052D218248 /* MotionCAAnimation.swift */; };
+		AE7F2C1768FAA00F3BF887B09A9E6F51 /* MotionCoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC973FC5FDA1EE2801CF07AA5B02054 /* MotionCoreAnimator.swift */; };
 		AEF58339E4EBA5799E4548A9DF373A41 /* Pods-ADNavigationBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2987D6EB6D700659C002E21B020BFD /* Pods-ADNavigationBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFE252AB5D8005D2D0FC6D6B99048BD7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A300DBD6D6F608D198E9BC546CCBA /* ReplaceMe.swift */; };
-		B644D0C25E865ED763C84D8B144473BB /* MotionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C36F24D3503BAE41021BF1C99BB207 /* MotionTransition.swift */; };
+		B28B4279A5C3199EE5B35824119D8F2A /* MotionCoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FBC75744BB3F508B7B4401B2051AB5 /* MotionCoordinateSpace.swift */; };
 		B7B41DE7E49FC62851369CB4406840C8 /* Pods-ADNavigationBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AF8F966E0828A2DBDA0896A46BD8F8 /* Pods-ADNavigationBar_Tests-dummy.m */; };
-		BD17B4E4312DE61EE5D14424689B7E91 /* MotionViewTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F02BACF0245812922C0B7649E4A32 /* MotionViewTransitionAnimator.swift */; };
-		C01640510905F832A85DD3186A51F48F /* Motion+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737199B6693263863718F62CAB89F13 /* Motion+UIKit.swift */; };
-		C10CA8BB706FEE4ABE8972C89E08F0E9 /* Motion+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54B8C1FCA757C77361614FA723E424 /* Motion+Array.swift */; };
-		CD1C5A76DDEE42DA4FEA085CDD4284C5 /* TransitionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1CCF844729E7919B820F71DFC4C61 /* TransitionPreprocessor.swift */; };
-		CD949DAB11A228D77F720CEDD24E4DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B7D0FED20F069D5C4DB6421484903F6C /* Motion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D09AF2296E13481D2E687FA6C826A /* Motion+UIView.swift */; };
+		C6FAF7ECBAF96B2121DC532555B5C971 /* MotionCorePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF6E0874C126C5BA54C4DDD7F8A41 /* MotionCorePreprocessor.swift */; };
 		D6D2422BA8023B394F5DA8A6B53DA8D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DAF7C0AD97BB99068B0DED2C22623D7B /* Motion+CG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32972047F31D48A0E368E2DF7E905115 /* Motion+CG.swift */; };
+		DB3ACD30F971CB5493B7D63C72A52CE3 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C75DA76DA8D879DEDAFB8A81160299 /* MotionTransition+UITabBarControllerDelegate.swift */; };
+		E28F72A0479754F7E0687F01CD1CCF0A /* Motion+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CB57E925748ECC9B5EE6DDE1350907 /* Motion+UIViewController.swift */; };
 		E3B48F9F284205596796AE36787EB4DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E53DA1CF58BC497803D50A29EDC64E79 /* MotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC68DD01B5263F9332E009CC5507159 /* MotionAnimationState.swift */; };
-		E5E879302B7B6A92CC5873A11ADD0D24 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099A5136AF41BC45C4F6D3B2C4064017 /* MotionAnimation.swift */; };
-		E6212459DE2419DA0D626C4B2C82E823 /* Motion+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89002CE1D655EEE348A4E46C853646E0 /* Motion+CALayer.swift */; };
-		EF0DB73FE9F6F0880F4E8EAD35CFFEEF /* MotionCAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3B14C0773C1A40F0BCD052D218248 /* MotionCAAnimation.swift */; };
-		F07125973B8700B75CF4E5406164B1D8 /* Motion+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196C7DDC6D588025E74472AFAF95851 /* Motion+Obj-C.swift */; };
-		F18927E9111350C7CBCCBF4A89913DAD /* MotionAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2CAE8254859FA01C56CD20A90331B /* MotionAnimatorViewContext.swift */; };
+		E5027072D35003F0AC1DEFA63E551FA7 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF19C7962CDBCE52ABB750FA9AD397 /* Application.swift */; };
+		E9D17C80030C5CDE2005AB0EC991EB37 /* Motion+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3196C7DDC6D588025E74472AFAF95851 /* Motion+Obj-C.swift */; };
+		EDC29863443839174D31CDADDDB14F03 /* Motion+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89002CE1D655EEE348A4E46C853646E0 /* Motion+CALayer.swift */; };
+		EF4DB8C2221786418EF7324944693291 /* MotionTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FAE057A8F289F35394D6CFED70002D /* MotionTransition+Animate.swift */; };
+		F76B69A002A48841E3A65173CEA04BF3 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B31A6EEB334ADB6DC1351FEF6E82C4 /* MotionTransition+UINavigationControllerDelegate.swift */; };
+		FD75CEB78ED275474B8D0580D754B41D /* MotionTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD434C5203AF055A0FB3D72DF444493E /* MotionTransition+Start.swift */; };
+		FDF6C1429F63D17BE9AC2119594B4572 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254669F7538CE28C8CB5060CF850A935 /* ConditionalPreprocessor.swift */; };
+		FEBC00810834487339A56622BCA9A092 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC11A082F293AFB02FD7E0445ECC67E8 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0B4630C02761C9DB549807FBCE31CD2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
-			remoteInfo = Motion;
-		};
-		40CB41FA8672D4C6900BE3C6A82F795A /* PBXContainerItemProxy */ = {
+		1C6F74D181337574EF90835EFD089923 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C7DA8B849ED68FCA0C85835B9E2640DE;
 			remoteInfo = ADNavigationBar;
 		};
-		5558E6C2D41783911F1F47EF26BA4511 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
-			remoteInfo = Motion;
-		};
-		FA634BDF03AA0793628B5E2557F07B12 /* PBXContainerItemProxy */ = {
+		211F8DA8521833A4EE1E79ADF5425FB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A592E88E69D576C074A598338A01C618;
 			remoteInfo = "Pods-ADNavigationBar_Example";
 		};
+		2F79E3A1553C521718F0208FE13BE17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
+			remoteInfo = Motion;
+		};
+		C8FA61DC07CB1732F7E62F7C54B777A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
+			remoteInfo = Motion;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		032200CB3EEB58DADCF7C84A05D47EF9 /* MotionModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionModifier.swift; path = Sources/MotionModifier.swift; sourceTree = "<group>"; };
 		03CC7D3F7CDB801CE3366CA9443D7366 /* Pods-ADNavigationBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADNavigationBar_Tests.modulemap"; sourceTree = "<group>"; };
+		0843E829B1C1C7EDFC6BF72D79C15EF2 /* ADNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADNavigationBar-umbrella.h"; sourceTree = "<group>"; };
+		089751B6640437783C75A2891C2BC600 /* ADNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ADNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		099A5136AF41BC45C4F6D3B2C4064017 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = Sources/MotionAnimation.swift; sourceTree = "<group>"; };
 		0A477A1EDE31EE42CA50F053A324A0F0 /* MotionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionContext.swift; path = Sources/MotionContext.swift; sourceTree = "<group>"; };
-		0A80E91E33F11AA5E5546D0485863DDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0F8AA877D7E9809500BBB1D3ADB061DA /* Pods-ADNavigationBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADNavigationBar_Example.modulemap"; sourceTree = "<group>"; };
 		12E03427FBAE3AF467B94D30BE5CF540 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
 		12F2CAE8254859FA01C56CD20A90331B /* MotionAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimatorViewContext.swift; path = Sources/Animator/MotionAnimatorViewContext.swift; sourceTree = "<group>"; };
 		144E98414D0E2B49BCEF2BF8CF66778A /* Pods-ADNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		147B1583FF247D7C12B01B943107C909 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		14A752361255479F214239D215F52FA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		15FF19C7962CDBCE52ABB750FA9AD397 /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Sources/Application.swift; sourceTree = "<group>"; };
+		191AB335D2E6DC805B1AE39530A05998 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1B2987D6EB6D700659C002E21B020BFD /* Pods-ADNavigationBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADNavigationBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		1F64A740A750E17CB5B978ADB6F49D04 /* Motion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Motion-dummy.m"; sourceTree = "<group>"; };
 		20AD5FBBF142E16F179B354E5B62E7C3 /* MotionTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Interactive.swift"; path = "Sources/Transition/MotionTransition+Interactive.swift"; sourceTree = "<group>"; };
 		22C36F24D3503BAE41021BF1C99BB207 /* MotionTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransition.swift; path = Sources/Transition/MotionTransition.swift; sourceTree = "<group>"; };
 		253585F5EB6452C94731BE5D755B3C22 /* MotionViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransition.swift; path = Sources/MotionViewTransition.swift; sourceTree = "<group>"; };
 		254669F7538CE28C8CB5060CF850A935 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
-		267AD484956B9C231CE17AB619723D4A /* ADNavigationBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ADNavigationBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28C2EC4B27EFFE2DAC98BBDC73B39637 /* ADNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ADNavigationBar.modulemap; sourceTree = "<group>"; };
 		2AD3B14C0773C1A40F0BCD052D218248 /* MotionCAAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCAAnimation.swift; path = Sources/MotionCAAnimation.swift; sourceTree = "<group>"; };
 		2C54B8C1FCA757C77361614FA723E424 /* Motion+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Array.swift"; path = "Sources/Extensions/Motion+Array.swift"; sourceTree = "<group>"; };
 		3196C7DDC6D588025E74472AFAF95851 /* Motion+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Obj-C.swift"; path = "Sources/Extensions/Motion+Obj-C.swift"; sourceTree = "<group>"; };
@@ -125,6 +130,7 @@
 		337D09AF2296E13481D2E687FA6C826A /* Motion+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIView.swift"; path = "Sources/Extensions/Motion+UIView.swift"; sourceTree = "<group>"; };
 		34A61CCFD84558C20A8B282B2485D35D /* Pods-ADNavigationBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADNavigationBar_Example-Info.plist"; sourceTree = "<group>"; };
 		3737199B6693263863718F62CAB89F13 /* Motion+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIKit.swift"; path = "Sources/Extensions/Motion+UIKit.swift"; sourceTree = "<group>"; };
+		3FB1307D3C3538C7209F3B541DFCA9EB /* ADNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADNavigationBar-prefix.pch"; sourceTree = "<group>"; };
 		3FEBF35C0184EB217C9C4A68EF45C23D /* Pods-ADNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4031C6412BD02866E6F34AC826891C6E /* MotionViewOrderStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewOrderStrategy.swift; path = Sources/MotionViewOrderStrategy.swift; sourceTree = "<group>"; };
 		41607D9581E50D0452E624ABEAD51F40 /* Pods-ADNavigationBar_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ADNavigationBar_Tests"; path = Pods_ADNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,22 +140,20 @@
 		47C75DA76DA8D879DEDAFB8A81160299 /* MotionTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
 		4B948B262870E9183BCB75CD3FD1E5AE /* Motion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.release.xcconfig; sourceTree = "<group>"; };
 		4BFEB3339D6E3BE2B1FF0E8D7AA7DD04 /* MotionTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+CustomTransition.swift"; path = "Sources/Transition/MotionTransition+CustomTransition.swift"; sourceTree = "<group>"; };
-		614EE3774CBAA8380EA7DC5308494884 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		57BF4EF7BE239262BCBA1A10DB718CCE /* ADNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
 		64D2915663C87AC037B0492D9A76148D /* Motion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.debug.xcconfig; sourceTree = "<group>"; };
-		651A300DBD6D6F608D198E9BC546CCBA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ADNavigationBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		660C8DCB02E66B98060CE66FDFB03A55 /* Pods-ADNavigationBar_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ADNavigationBar_Example"; path = Pods_ADNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BB84120FEF55AC111703F88D308A14C /* ADNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADNavigationBar-prefix.pch"; sourceTree = "<group>"; };
 		6BE5278BDC0F3252B6EBD9CC1472C70F /* Motion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-umbrella.h"; sourceTree = "<group>"; };
 		6E9CD8F4DB9EE1DBBA630834BA1121C7 /* Pods-ADNavigationBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADNavigationBar_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74D835DAEE7DA0CBE98B75842C88A5F6 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
 		7A4A7E1FA4BEA0E1F37F3469808DDAB1 /* Pods-ADNavigationBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADNavigationBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7D9460E2364CB727E74ED87B54192230 /* ADNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ADNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		7F469FAAA2AC42A5EA09767751440BB7 /* Motion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Motion-Info.plist"; sourceTree = "<group>"; };
-		86D97E75E6BFF46FE189E2B049975B8A /* ADNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADNavigationBar-umbrella.h"; sourceTree = "<group>"; };
 		89002CE1D655EEE348A4E46C853646E0 /* Motion+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CALayer.swift"; path = "Sources/Extensions/Motion+CALayer.swift"; sourceTree = "<group>"; };
+		8D28D2C6375DAAC3F08EFF163B6232FC /* ADNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ADNavigationBar.swift; path = ADNavigationBar/Classes/ADNavigationBar.swift; sourceTree = "<group>"; };
 		90FBC75744BB3F508B7B4401B2051AB5 /* MotionCoordinateSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoordinateSpace.swift; path = Sources/MotionCoordinateSpace.swift; sourceTree = "<group>"; };
 		91FD8E0195B61824F96FBDD37D4E16DA /* Motion+CAMediaTimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CAMediaTimingFunction.swift"; path = "Sources/Extensions/Motion+CAMediaTimingFunction.swift"; sourceTree = "<group>"; };
+		95A32F88FAB07C94C6DB49091C8CFEAC /* ADNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADNavigationBar.release.xcconfig; sourceTree = "<group>"; };
 		98038E4AAE5BABF45091B3CDAD147CD9 /* MotionViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewPropertyViewContext.swift; path = Sources/Animator/MotionViewPropertyViewContext.swift; sourceTree = "<group>"; };
 		985F3F2E75A7D752AC2E33F31FB64A5C /* MotionCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimationViewContext.swift; path = Sources/Animator/MotionCoreAnimationViewContext.swift; sourceTree = "<group>"; };
 		99AF8F966E0828A2DBDA0896A46BD8F8 /* Pods-ADNavigationBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADNavigationBar_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -158,11 +162,11 @@
 		A152697FCCFDC2BF27F8EBEFE1794DA5 /* MotionTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTargetState.swift; path = Sources/MotionTargetState.swift; sourceTree = "<group>"; };
 		A670F6705702551BBF99926C78594DDD /* Pods-ADNavigationBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADNavigationBar_Tests-Info.plist"; sourceTree = "<group>"; };
 		A8CEA12B6BA4CAE370391F5B79E1EF28 /* Pods-ADNavigationBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADNavigationBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD99ECAA08816DCBD72A418021325EA3 /* ADNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
 		AFA1CCF844729E7919B820F71DFC4C61 /* TransitionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPreprocessor.swift; path = Sources/Preprocessors/TransitionPreprocessor.swift; sourceTree = "<group>"; };
 		B1B31A6EEB334ADB6DC1351FEF6E82C4 /* MotionTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
 		B1D18274B8C6872397F11603828D1A6A /* ADNavigationBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADNavigationBar; path = ADNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20F02BACF0245812922C0B7649E4A32 /* MotionViewTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransitionAnimator.swift; path = Sources/Animator/MotionViewTransitionAnimator.swift; sourceTree = "<group>"; };
+		B3855DC0AF916E7BD3ABBD36B287399E /* ADNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADNavigationBar-dummy.m"; sourceTree = "<group>"; };
 		BE9510E7D1F8405DF3749AC13C6EE8A5 /* Pods-ADNavigationBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADNavigationBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF795814C4368957776D1FD68870E799 /* Pods-ADNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFC3B2436A8A888DD82DA59718D32B05 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = Sources/Animator/MotionAnimator.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 		C78047A87D270067C92417BC4DE34770 /* MotionTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Complete.swift"; path = "Sources/Transition/MotionTransition+Complete.swift"; sourceTree = "<group>"; };
 		CC737EB9E1EC624557A84CF7BE70E731 /* MotionSnapshotType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionSnapshotType.swift; path = Sources/MotionSnapshotType.swift; sourceTree = "<group>"; };
 		CE6EF6E0874C126C5BA54C4DDD7F8A41 /* MotionCorePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCorePreprocessor.swift; path = Sources/Preprocessors/MotionCorePreprocessor.swift; sourceTree = "<group>"; };
+		D10240E6B5653F9C5EF9EBDF4F99CDBB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ADNavigationBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DC53E66AE338A811F3CFEA0E1BD6AFD6 /* Pods-ADNavigationBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADNavigationBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DCC973FC5FDA1EE2801CF07AA5B02054 /* MotionCoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimator.swift; path = Sources/Animator/MotionCoreAnimator.swift; sourceTree = "<group>"; };
 		DDC68DD01B5263F9332E009CC5507159 /* MotionAnimationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationState.swift; path = Sources/MotionAnimationState.swift; sourceTree = "<group>"; };
@@ -178,11 +183,10 @@
 		E21055B9F1F5FE8999DDF108D4051400 /* Pods-ADNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E39D37E3ECCDB74FEC8ADADE76B1D2D6 /* Pods-ADNavigationBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADNavigationBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E447871EAF70A4C7360267B5CA82DA93 /* Pods-ADNavigationBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADNavigationBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E50D5FF6B204CEACB29F1A61ECB1D0EB /* ADNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ADNavigationBar.modulemap; sourceTree = "<group>"; };
-		E888114658C39477598B2C2F4367D05A /* ADNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADNavigationBar.release.xcconfig; sourceTree = "<group>"; };
+		E538DDADDC07F0AC2C4C5DDD5DD617FE /* ADNavigationBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ADNavigationBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E9E83947349F7E8028823F3766451329 /* Motion */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Motion; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC11A082F293AFB02FD7E0445ECC67E8 /* MotionTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/MotionTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
-		F2A94EC5A98B67962892051B423F78DB /* ADNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		F1B97730D5246BB4ADD5F88AB7C1C1E0 /* ADNavigationBarViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ADNavigationBarViewController.xib; path = ADNavigationBar/Classes/ADNavigationBarViewController.xib; sourceTree = "<group>"; };
 		FD434C5203AF055A0FB3D72DF444493E /* MotionTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Start.swift"; path = "Sources/Transition/MotionTransition+Start.swift"; sourceTree = "<group>"; };
 		FF44712BC02A4AF4FCE1AB8FEFA97D44 /* MotionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPreprocessor.swift; path = Sources/Preprocessors/MotionPreprocessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,19 +200,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A179E88D0A4181F1EE19DD496CF60E9 /* Frameworks */ = {
+		2AFAEE76A33FAB0D691CDDCA2BF980DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD949DAB11A228D77F720CEDD24E4DFE /* Foundation.framework in Frameworks */,
+				6FE1718ED5F2F8718B2F7AD70A6AB532 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5E7EBEA2522D6B34E4AC893E37AC3EF /* Frameworks */ = {
+		CD750A6C5AB89D7A7F7240A6CF459785 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50C601CD07FEF170F41C6CC52490B63D /* Foundation.framework in Frameworks */,
+				71C97DFA18203CBC1FCAFC77C80B6C17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +227,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00BB80C39B4A776984D122EFEF2523A9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81870F54F285795C018511226BD7250E /* ADNavigationBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		01B19F626784E89A8B88AF8BA8550C0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,12 +246,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		084033E1BDFA49C2045F77B7558BD789 /* Development Pods */ = {
+		0DD3347A06C343AEC18BFBA8FD05D10B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E000CA5CA4B5FAEC4BA7807102A8D8A /* ADNavigationBar */,
+				28C2EC4B27EFFE2DAC98BBDC73B39637 /* ADNavigationBar.modulemap */,
+				B3855DC0AF916E7BD3ABBD36B287399E /* ADNavigationBar-dummy.m */,
+				089751B6640437783C75A2891C2BC600 /* ADNavigationBar-Info.plist */,
+				3FB1307D3C3538C7209F3B541DFCA9EB /* ADNavigationBar-prefix.pch */,
+				0843E829B1C1C7EDFC6BF72D79C15EF2 /* ADNavigationBar-umbrella.h */,
+				57BF4EF7BE239262BCBA1A10DB718CCE /* ADNavigationBar.debug.xcconfig */,
+				95A32F88FAB07C94C6DB49091C8CFEAC /* ADNavigationBar.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ADNavigationBar";
 			sourceTree = "<group>";
 		};
 		4644A8F903F716A9BD666B6D591192A6 /* Pods-ADNavigationBar_Example */ = {
@@ -284,17 +303,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5E000CA5CA4B5FAEC4BA7807102A8D8A /* ADNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				651A300DBD6D6F608D198E9BC546CCBA /* ReplaceMe.swift */,
-				FE4FA4C8BBD2E7F0D0FE6B1EF50D0BB3 /* Pod */,
-				B04680EE0DB5687CADE7386D6AB7B05B /* Support Files */,
-			);
-			name = ADNavigationBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		6B949EFB4737325C0D777BD2121EE4B7 /* Pods-ADNavigationBar_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,19 +319,27 @@
 			path = "Target Support Files/Pods-ADNavigationBar_Tests";
 			sourceTree = "<group>";
 		};
-		B04680EE0DB5687CADE7386D6AB7B05B /* Support Files */ = {
+		7BDD9229DB9D6BBEF4DB65F174D26EEA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E50D5FF6B204CEACB29F1A61ECB1D0EB /* ADNavigationBar.modulemap */,
-				F2A94EC5A98B67962892051B423F78DB /* ADNavigationBar-dummy.m */,
-				7D9460E2364CB727E74ED87B54192230 /* ADNavigationBar-Info.plist */,
-				6BB84120FEF55AC111703F88D308A14C /* ADNavigationBar-prefix.pch */,
-				86D97E75E6BFF46FE189E2B049975B8A /* ADNavigationBar-umbrella.h */,
-				AD99ECAA08816DCBD72A418021325EA3 /* ADNavigationBar.debug.xcconfig */,
-				E888114658C39477598B2C2F4367D05A /* ADNavigationBar.release.xcconfig */,
+				E538DDADDC07F0AC2C4C5DDD5DD617FE /* ADNavigationBar.podspec */,
+				191AB335D2E6DC805B1AE39530A05998 /* LICENSE */,
+				14A752361255479F214239D215F52FA3 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ADNavigationBar";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		81870F54F285795C018511226BD7250E /* ADNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				8D28D2C6375DAAC3F08EFF163B6232FC /* ADNavigationBar.swift */,
+				F1B97730D5246BB4ADD5F88AB7C1C1E0 /* ADNavigationBarViewController.xib */,
+				D10240E6B5653F9C5EF9EBDF4F99CDBB /* ReplaceMe.swift */,
+				7BDD9229DB9D6BBEF4DB65F174D26EEA /* Pod */,
+				0DD3347A06C343AEC18BFBA8FD05D10B /* Support Files */,
+			);
+			name = ADNavigationBar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C388324A193CA5AA034B40738A851CF8 /* Support Files */ = {
@@ -345,7 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				084033E1BDFA49C2045F77B7558BD789 /* Development Pods */,
+				00BB80C39B4A776984D122EFEF2523A9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5D3834E43634AD0F9A495F871A77E155 /* Pods */,
 				01B19F626784E89A8B88AF8BA8550C0C /* Products */,
@@ -423,16 +439,6 @@
 			path = Motion;
 			sourceTree = "<group>";
 		};
-		FE4FA4C8BBD2E7F0D0FE6B1EF50D0BB3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				267AD484956B9C231CE17AB619723D4A /* ADNavigationBar.podspec */,
-				614EE3774CBAA8380EA7DC5308494884 /* LICENSE */,
-				0A80E91E33F11AA5E5546D0485863DDB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -444,11 +450,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63CB40BC790EB33C6D8242C555E1139A /* Headers */ = {
+		A818BD00CDE2CE7B741A3D5ED9AA21AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32F631D172BD7B1A4B973998C62BACEA /* Motion-umbrella.h in Headers */,
+				70929B09B699DC789734EC362A295969 /* ADNavigationBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,11 +466,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9A22CAB2D88B8CA738EEA5DC70AA878 /* Headers */ = {
+		BB354DD075BBF7291E4E86621A247FF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1168A76154637DFCDFD51948CE3D390A /* ADNavigationBar-umbrella.h in Headers */,
+				8407437B90190FE48BC3A3FECC9BEB73 /* Motion-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +489,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9DFE5A0236110537655731AA4329878 /* PBXTargetDependency */,
+				2B946C8D35A23149FE1CE80BF063DF1A /* PBXTargetDependency */,
 			);
 			name = "Pods-ADNavigationBar_Tests";
 			productName = Pods_ADNavigationBar_Tests;
@@ -492,12 +498,12 @@
 		};
 		9312109646DF39EBE725AD8F96A8C18B /* Motion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8623B6D6FFA305C2FE14E0E9DDBEE8F1 /* Build configuration list for PBXNativeTarget "Motion" */;
+			buildConfigurationList = 141924CF51A3D2C98684FA4E136E8093 /* Build configuration list for PBXNativeTarget "Motion" */;
 			buildPhases = (
-				63CB40BC790EB33C6D8242C555E1139A /* Headers */,
-				856439C8A2D3ED7BB1B5219118D41D20 /* Sources */,
-				2A179E88D0A4181F1EE19DD496CF60E9 /* Frameworks */,
-				1364AFEE9A1CF7A8562F477D6C673D6F /* Resources */,
+				BB354DD075BBF7291E4E86621A247FF8 /* Headers */,
+				4278120975F9115E3A0C0E1B117A70CF /* Sources */,
+				2AFAEE76A33FAB0D691CDDCA2BF980DE /* Frameworks */,
+				25E363DA07139E628F9ADD1EB62DEBB4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -520,8 +526,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				5B19E83B383F2DFD3F931B289A62EDE3 /* PBXTargetDependency */,
-				A0DCD29D290D4326E72D04A68F1688E6 /* PBXTargetDependency */,
+				A39C6427F4A88888B5EFE652BBEF7EF8 /* PBXTargetDependency */,
+				8AB66296FBE7516327368109AF8C4425 /* PBXTargetDependency */,
 			);
 			name = "Pods-ADNavigationBar_Example";
 			productName = Pods_ADNavigationBar_Example;
@@ -530,17 +536,17 @@
 		};
 		C7DA8B849ED68FCA0C85835B9E2640DE /* ADNavigationBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B66E08595D7D5E5C638870944A8AB98 /* Build configuration list for PBXNativeTarget "ADNavigationBar" */;
+			buildConfigurationList = 6B80F09C25A0779A4E7291298FD13B90 /* Build configuration list for PBXNativeTarget "ADNavigationBar" */;
 			buildPhases = (
-				F9A22CAB2D88B8CA738EEA5DC70AA878 /* Headers */,
-				D0BACEFD581F4BDFC2224F80C7B64CF5 /* Sources */,
-				D5E7EBEA2522D6B34E4AC893E37AC3EF /* Frameworks */,
-				427834EA83F4B1C6DE87D53588CEB40C /* Resources */,
+				A818BD00CDE2CE7B741A3D5ED9AA21AD /* Headers */,
+				F2A6A3084C67BE904CD43AC4E5AD6618 /* Sources */,
+				CD750A6C5AB89D7A7F7240A6CF459785 /* Frameworks */,
+				60B05B325871D409B1EF0BEB19C33A54 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECC349F91297C11EA02B81F0AF2705BF /* PBXTargetDependency */,
+				F687B40442ED42A3E32C531EFD7F1E36 /* PBXTargetDependency */,
 			);
 			name = ADNavigationBar;
 			productName = ADNavigationBar;
@@ -578,14 +584,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1364AFEE9A1CF7A8562F477D6C673D6F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427834EA83F4B1C6DE87D53588CEB40C /* Resources */ = {
+		25E363DA07139E628F9ADD1EB62DEBB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,6 +592,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		43279F258195344676A3D91D8CBFE313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B05B325871D409B1EF0BEB19C33A54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -609,73 +615,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4278120975F9115E3A0C0E1B117A70CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5027072D35003F0AC1DEFA63E551FA7 /* Application.swift in Sources */,
+				5825E1C9DC95D4A0F23FC7F4DF763D20 /* CascadePreprocessor.swift in Sources */,
+				FDF6C1429F63D17BE9AC2119594B4572 /* ConditionalPreprocessor.swift in Sources */,
+				790A297199F28C312C83765931FC2D1C /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				54AAAB9E76BE613D303B460FD7C68CED /* MatchPreprocessor.swift in Sources */,
+				143D123215B8919D2A2C1BEDD7D3B4D6 /* Motion+Array.swift in Sources */,
+				EDC29863443839174D31CDADDDB14F03 /* Motion+CALayer.swift in Sources */,
+				9965CBB59EA2FB746165C79AA525C8F1 /* Motion+CAMediaTimingFunction.swift in Sources */,
+				0EB615FC5B407A05BEA5867D475D820C /* Motion+CG.swift in Sources */,
+				E9D17C80030C5CDE2005AB0EC991EB37 /* Motion+Obj-C.swift in Sources */,
+				89E769093A927F260D912E99435B4AE2 /* Motion+UIKit.swift in Sources */,
+				B7D0FED20F069D5C4DB6421484903F6C /* Motion+UIView.swift in Sources */,
+				E28F72A0479754F7E0687F01CD1CCF0A /* Motion+UIViewController.swift in Sources */,
+				1F4543C5779AA5DDDC9322D106A40CE2 /* Motion-dummy.m in Sources */,
+				2A85DD83E7C307D5F364BF78AC69A1F9 /* MotionAnimation.swift in Sources */,
+				5844762BE766D88DFCF894D7B95FDEDC /* MotionAnimationState.swift in Sources */,
+				0009FC4D8CC90EF7C26CF75C2D72701A /* MotionAnimator.swift in Sources */,
+				085117DEF854030A6F44FE887EBA4F8A /* MotionAnimatorViewContext.swift in Sources */,
+				A478C47A728A3D14B645CF9E249ED377 /* MotionCAAnimation.swift in Sources */,
+				3F541A392EF57D7BAD0C609C65FEA20F /* MotionContext.swift in Sources */,
+				B28B4279A5C3199EE5B35824119D8F2A /* MotionCoordinateSpace.swift in Sources */,
+				60A4438B8D2CEAA835C50470488E1D9C /* MotionCoreAnimationViewContext.swift in Sources */,
+				AE7F2C1768FAA00F3BF887B09A9E6F51 /* MotionCoreAnimator.swift in Sources */,
+				C6FAF7ECBAF96B2121DC532555B5C971 /* MotionCorePreprocessor.swift in Sources */,
+				A06A8C234D38A8411E6141EC923C59A5 /* MotionModifier.swift in Sources */,
+				3DC4C3C427BFB973F976A8341A4B30BE /* MotionPlugin.swift in Sources */,
+				99FD3714872CED17971FE622D6C731C7 /* MotionPreprocessor.swift in Sources */,
+				30AFBF7C7E2F69C068F741AF94D2F3AD /* MotionProgressRunner.swift in Sources */,
+				19B7AAB4D9BDB181BFA4015D4DECA3D9 /* MotionSnapshotType.swift in Sources */,
+				05A01C63F25B8C634D8E59FAD629A421 /* MotionTargetState.swift in Sources */,
+				584F1DECC27929F128F9697BF6CD45AA /* MotionTransition.swift in Sources */,
+				EF4DB8C2221786418EF7324944693291 /* MotionTransition+Animate.swift in Sources */,
+				9FC7C4D80AA245EA96DEC3B504640577 /* MotionTransition+Complete.swift in Sources */,
+				0C6EEE7F4A1641DCD59A359DAF0096AA /* MotionTransition+CustomTransition.swift in Sources */,
+				4EF966EE8130D2839A904A400F617D08 /* MotionTransition+Interactive.swift in Sources */,
+				FD75CEB78ED275474B8D0580D754B41D /* MotionTransition+Start.swift in Sources */,
+				F76B69A002A48841E3A65173CEA04BF3 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */,
+				DB3ACD30F971CB5493B7D63C72A52CE3 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */,
+				FEBC00810834487339A56622BCA9A092 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				689BEE1E4E996E21D68DB0E84D8955BA /* MotionTransitionObserver.swift in Sources */,
+				166F7FAE671BCC47E62DD466D851CAD3 /* MotionViewOrderStrategy.swift in Sources */,
+				5881FD9FF5E5064612AA71F9CA944232 /* MotionViewPropertyViewContext.swift in Sources */,
+				0E3BB548CDFE7F7C501AC938A06E372B /* MotionViewTransition.swift in Sources */,
+				3DEF0B10605F93CB1275479EE9C3D8B8 /* MotionViewTransitionAnimator.swift in Sources */,
+				8CD1CB00E307CE286A33E2BCBEA6579E /* SourcePreprocessor.swift in Sources */,
+				58DBE22AF51136108E5DC2E4755712C2 /* TransitionPreprocessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70D7CD84CDA198E7E4B18AA6393A3F29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44DC20D05C93405A42869EBF190D58F0 /* Pods-ADNavigationBar_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		856439C8A2D3ED7BB1B5219118D41D20 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				559D28260B7D6A8AE06EC03AB4A4625C /* Application.swift in Sources */,
-				27520DA1DF45B1DF88B88A52C303BCA0 /* CascadePreprocessor.swift in Sources */,
-				4C6619CD891CE88617C5F6A59C4C2377 /* ConditionalPreprocessor.swift in Sources */,
-				8E19088E5E12365895E2B9B8B01D4FED /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
-				6148BE7FCC32F3AD03EE6FC81D639FBE /* MatchPreprocessor.swift in Sources */,
-				C10CA8BB706FEE4ABE8972C89E08F0E9 /* Motion+Array.swift in Sources */,
-				E6212459DE2419DA0D626C4B2C82E823 /* Motion+CALayer.swift in Sources */,
-				573FD105CEE2E131440C01D500AC9B18 /* Motion+CAMediaTimingFunction.swift in Sources */,
-				DAF7C0AD97BB99068B0DED2C22623D7B /* Motion+CG.swift in Sources */,
-				F07125973B8700B75CF4E5406164B1D8 /* Motion+Obj-C.swift in Sources */,
-				C01640510905F832A85DD3186A51F48F /* Motion+UIKit.swift in Sources */,
-				6DFCCB4DEE507D318798B29A08132D90 /* Motion+UIView.swift in Sources */,
-				0703AF64A0E29F7F63487332A121A711 /* Motion+UIViewController.swift in Sources */,
-				0B069E3C9E7154E2650936DE6A431379 /* Motion-dummy.m in Sources */,
-				E5E879302B7B6A92CC5873A11ADD0D24 /* MotionAnimation.swift in Sources */,
-				E53DA1CF58BC497803D50A29EDC64E79 /* MotionAnimationState.swift in Sources */,
-				567C6DF8A903F6A34C79C994DD5F80AD /* MotionAnimator.swift in Sources */,
-				F18927E9111350C7CBCCBF4A89913DAD /* MotionAnimatorViewContext.swift in Sources */,
-				EF0DB73FE9F6F0880F4E8EAD35CFFEEF /* MotionCAAnimation.swift in Sources */,
-				6B154C07FFBC5C8F64748826EAA9B5F8 /* MotionContext.swift in Sources */,
-				6FA2893F785F7465A93FF7271573C581 /* MotionCoordinateSpace.swift in Sources */,
-				0DBE8AC1ED5E8ECCD946CBC3D11887EB /* MotionCoreAnimationViewContext.swift in Sources */,
-				194F2AF2EF4D2084C96134ACB1FA4074 /* MotionCoreAnimator.swift in Sources */,
-				580715AAE9563F95B40EC1DFE206303C /* MotionCorePreprocessor.swift in Sources */,
-				9550026AE43AC486F3E39BDCFD22BC12 /* MotionModifier.swift in Sources */,
-				94C1E1B52F5E1575A351774AAA754ABD /* MotionPlugin.swift in Sources */,
-				6D1FF7E173252709D538847B2A0F2394 /* MotionPreprocessor.swift in Sources */,
-				2C49AA9161736FBF4614E8D2FD69DCA4 /* MotionProgressRunner.swift in Sources */,
-				09D63B3889A77A35EBE7AA7916C7F3B5 /* MotionSnapshotType.swift in Sources */,
-				668D0CC8BD65F554A3A1B780AFB5F588 /* MotionTargetState.swift in Sources */,
-				B644D0C25E865ED763C84D8B144473BB /* MotionTransition.swift in Sources */,
-				8ABB0AD924955DF9C968A58C6F10A6F8 /* MotionTransition+Animate.swift in Sources */,
-				13114D3E99D352DECA302DF586090300 /* MotionTransition+Complete.swift in Sources */,
-				7977FE6AF61531390BA687D8CA0B1631 /* MotionTransition+CustomTransition.swift in Sources */,
-				7AB4936A4C4898FE116F047D692F06CA /* MotionTransition+Interactive.swift in Sources */,
-				8934AA767378E0908C4CA52A5C3880E7 /* MotionTransition+Start.swift in Sources */,
-				6588388536ECB94BBB46A5AA64DAAA6A /* MotionTransition+UINavigationControllerDelegate.swift in Sources */,
-				1F56BE29C903642016FA08966A3973A3 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */,
-				704E3C61D1A42409D647B3A984F13F4B /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
-				321E6A0D18F3AB273223DD373A208D8A /* MotionTransitionObserver.swift in Sources */,
-				AB7043D2E06A4C43A2AA8F99FE0495A7 /* MotionViewOrderStrategy.swift in Sources */,
-				AE89C5C84320F6F7A89B051396DD7379 /* MotionViewPropertyViewContext.swift in Sources */,
-				02CE3EB7EE5B35AE5BA501802634BEC8 /* MotionViewTransition.swift in Sources */,
-				BD17B4E4312DE61EE5D14424689B7E91 /* MotionViewTransitionAnimator.swift in Sources */,
-				25057E2CFD9FF337915854B3D23EF37B /* SourcePreprocessor.swift in Sources */,
-				CD1C5A76DDEE42DA4FEA085CDD4284C5 /* TransitionPreprocessor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0BACEFD581F4BDFC2224F80C7B64CF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43E49421D8A71DCDFEC2461DCF54A79B /* ADNavigationBar-dummy.m in Sources */,
-				AFE252AB5D8005D2D0FC6D6B99048BD7 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,67 +684,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2A6A3084C67BE904CD43AC4E5AD6618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF1DA5A3A2BDA67F01A14BDD7A8CEC5 /* ADNavigationBar.swift in Sources */,
+				33FBE36F7398278089F811391E2672D1 /* ADNavigationBar-dummy.m in Sources */,
+				89A6C3F46B9C5E11FB0D13FF0E7DF40F /* ADNavigationBarViewController.xib in Sources */,
+				8C11C1004998D58156E07811C39ED7AC /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B19E83B383F2DFD3F931B289A62EDE3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ADNavigationBar;
-			target = C7DA8B849ED68FCA0C85835B9E2640DE /* ADNavigationBar */;
-			targetProxy = 40CB41FA8672D4C6900BE3C6A82F795A /* PBXContainerItemProxy */;
-		};
-		A0DCD29D290D4326E72D04A68F1688E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Motion;
-			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
-			targetProxy = 5558E6C2D41783911F1F47EF26BA4511 /* PBXContainerItemProxy */;
-		};
-		D9DFE5A0236110537655731AA4329878 /* PBXTargetDependency */ = {
+		2B946C8D35A23149FE1CE80BF063DF1A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ADNavigationBar_Example";
 			target = A592E88E69D576C074A598338A01C618 /* Pods-ADNavigationBar_Example */;
-			targetProxy = FA634BDF03AA0793628B5E2557F07B12 /* PBXContainerItemProxy */;
+			targetProxy = 211F8DA8521833A4EE1E79ADF5425FB5 /* PBXContainerItemProxy */;
 		};
-		ECC349F91297C11EA02B81F0AF2705BF /* PBXTargetDependency */ = {
+		8AB66296FBE7516327368109AF8C4425 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Motion;
 			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
-			targetProxy = 0B4630C02761C9DB549807FBCE31CD2D /* PBXContainerItemProxy */;
+			targetProxy = C8FA61DC07CB1732F7E62F7C54B777A4 /* PBXContainerItemProxy */;
+		};
+		A39C6427F4A88888B5EFE652BBEF7EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADNavigationBar;
+			target = C7DA8B849ED68FCA0C85835B9E2640DE /* ADNavigationBar */;
+			targetProxy = 1C6F74D181337574EF90835EFD089923 /* PBXContainerItemProxy */;
+		};
+		F687B40442ED42A3E32C531EFD7F1E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Motion;
+			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
+			targetProxy = 2F79E3A1553C521718F0208FE13BE17F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ED3AD4C302830E8FBBA0B2D703FC235 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E888114658C39477598B2C2F4367D05A /* ADNavigationBar.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = ADNavigationBar;
-				PRODUCT_NAME = ADNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		227615E0332970E6314633FE7BFBCC7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E21055B9F1F5FE8999DDF108D4051400 /* Pods-ADNavigationBar_Example.debug.xcconfig */;
@@ -846,37 +823,6 @@
 			};
 			name = Debug;
 		};
-		2AB459D4F8BB87C1BF881C61AF7D097B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B948B262870E9183BCB75CD3FD1E5AE /* Motion.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Motion/Motion-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
-				PRODUCT_MODULE_NAME = Motion;
-				PRODUCT_NAME = Motion;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		32610B2CE630F2BAACB81C0FB8FD9EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF795814C4368957776D1FD68870E799 /* Pods-ADNavigationBar_Tests.release.xcconfig */;
@@ -910,7 +856,38 @@
 			};
 			name = Release;
 		};
-		589A80984C2B7C179C4F96172C6A23C0 /* Debug */ = {
+		3A8A471303D27BE8B5BAC62B2CCF9153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A32F88FAB07C94C6DB49091C8CFEAC /* ADNavigationBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = ADNavigationBar;
+				PRODUCT_NAME = ADNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A8C70ECC72A881120D4DBB5271861FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64D2915663C87AC037B0492D9A76148D /* Motion.debug.xcconfig */;
 			buildSettings = {
@@ -972,9 +949,9 @@
 			};
 			name = Debug;
 		};
-		70EC5DBFE04B2FAB33793DB694D47511 /* Debug */ = {
+		C37C2B63073111757AD1C6A40F7B6B5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD99ECAA08816DCBD72A418021325EA3 /* ADNavigationBar.debug.xcconfig */;
+			baseConfigurationReference = 4B948B262870E9183BCB75CD3FD1E5AE /* Motion.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -984,23 +961,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Motion-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = ADNavigationBar;
-				PRODUCT_NAME = ADNavigationBar;
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1064,6 +1042,36 @@
 			};
 			name = Release;
 		};
+		F1408769B1BAFEC32C764ED7DD63F552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BF4EF7BE239262BCBA1A10DB718CCE /* ADNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = ADNavigationBar;
+				PRODUCT_NAME = ADNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		FB92AB67D44083D51759C54C257CB435 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FEBF35C0184EB217C9C4A68EF45C23D /* Pods-ADNavigationBar_Example.release.xcconfig */;
@@ -1100,6 +1108,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		141924CF51A3D2C98684FA4E136E8093 /* Build configuration list for PBXNativeTarget "Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8C70ECC72A881120D4DBB5271861FE /* Debug */,
+				C37C2B63073111757AD1C6A40F7B6B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		22D8EA8233DB844732DE379DE1079E56 /* Build configuration list for PBXNativeTarget "Pods-ADNavigationBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1118,20 +1135,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B66E08595D7D5E5C638870944A8AB98 /* Build configuration list for PBXNativeTarget "ADNavigationBar" */ = {
+		6B80F09C25A0779A4E7291298FD13B90 /* Build configuration list for PBXNativeTarget "ADNavigationBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70EC5DBFE04B2FAB33793DB694D47511 /* Debug */,
-				0ED3AD4C302830E8FBBA0B2D703FC235 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8623B6D6FFA305C2FE14E0E9DDBEE8F1 /* Build configuration list for PBXNativeTarget "Motion" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				589A80984C2B7C179C4F96172C6A23C0 /* Debug */,
-				2AB459D4F8BB87C1BF881C61AF7D097B /* Release */,
+				F1408769B1BAFEC32C764ED7DD63F552 /* Debug */,
+				3A8A471303D27BE8B5BAC62B2CCF9153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
