@@ -33,7 +33,7 @@ addNavigationBar(title: "Hello world!")
 
 ## Author
 
-Daniel, daniel.prolite@gmail.com
+Daniel, zydeico@protonmail.com
 
 ## License
 
