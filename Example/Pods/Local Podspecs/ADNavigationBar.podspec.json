@@ -19,6 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "ADNavigationBar/Classes/**/*",
+  "static_framework": true,
   "dependencies": {
     "Motion": [
       "~> 3.1"

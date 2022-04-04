@@ -138,7 +138,7 @@ extension UIViewController {
         }
     }
     
-    func addDVNavigationBar(title: String? = nil, titleSize: ADNavigationBar.TitleSize = .regular, rightButtonAction: [ButtonAction] = [], leftButtonAction: (() -> (Bool))? = nil, leftButtonImage: UIImage? = nil, height: CGFloat = ADNavigationBar.height, mainButtonAction: (() -> Void)? = nil) {
+    func addNavigationBar(title: String? = nil, titleSize: ADNavigationBar.TitleSize = .regular, rightButtonAction: [ButtonAction] = [], leftButtonAction: (() -> (Bool))? = nil, leftButtonImage: UIImage? = nil, height: CGFloat = ADNavigationBar.height, mainButtonAction: (() -> Void)? = nil) {
         guard dvNavigationBar == nil else { return }
         guard let dvNavigationBar = Bundle.main.loadNibNamed("DVNavigationBar", owner: self, options: nil)?.first as? ADNavigationBar else { return }
         let title = title ?? self.title

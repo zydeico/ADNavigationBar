@@ -856,37 +856,6 @@
 			};
 			name = Release;
 		};
-		3A8A471303D27BE8B5BAC62B2CCF9153 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F18C263D0B6594C190024BFDED256934 /* ADNavigationBar.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = ADNavigationBar;
-				PRODUCT_NAME = ADNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3A8C70ECC72A881120D4DBB5271861FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64D2915663C87AC037B0492D9A76148D /* Motion.debug.xcconfig */;
@@ -916,6 +885,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		408A161D04759B6CCC7EA5EF481C5BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67BA099E390DDA8B059ECB4F6A9BA36 /* ADNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = ADNavigationBar;
+				PRODUCT_NAME = ADNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5922D2D7424FE6FAB05104872FF04AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18C263D0B6594C190024BFDED256934 /* ADNavigationBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
+				PRODUCT_MODULE_NAME = ADNavigationBar;
+				PRODUCT_NAME = ADNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		62823AB279073FD53229D2BF8E005B45 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1042,36 +1074,6 @@
 			};
 			name = Release;
 		};
-		F1408769B1BAFEC32C764ED7DD63F552 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67BA099E390DDA8B059ECB4F6A9BA36 /* ADNavigationBar.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ADNavigationBar/ADNavigationBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ADNavigationBar/ADNavigationBar.modulemap";
-				PRODUCT_MODULE_NAME = ADNavigationBar;
-				PRODUCT_NAME = ADNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		FB92AB67D44083D51759C54C257CB435 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FEBF35C0184EB217C9C4A68EF45C23D /* Pods-ADNavigationBar_Example.release.xcconfig */;
@@ -1138,8 +1140,8 @@
 		6B80F09C25A0779A4E7291298FD13B90 /* Build configuration list for PBXNativeTarget "ADNavigationBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1408769B1BAFEC32C764ED7DD63F552 /* Debug */,
-				3A8A471303D27BE8B5BAC62B2CCF9153 /* Release */,
+				408A161D04759B6CCC7EA5EF481C5BF4 /* Debug */,
+				5922D2D7424FE6FAB05104872FF04AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
