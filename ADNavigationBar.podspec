@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.static_framework = true
+  s.swift_version = '4.1'
   s.dependency 'Motion', '~> 3.1'
 end
