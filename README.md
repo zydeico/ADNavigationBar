@@ -20,6 +20,17 @@ it, simply add the following line to your Podfile:
 pod 'ADNavigationBar'
 ```
 
+# Usage
+
+After install pod library in your iOS project, import ADNavigationBar using
+```ruby
+import ADNavigationBar
+```
+Now in your viewDidLoad() method, you can add a navigation bar using
+```ruby
+addNavigationBar(title: "Hello world!")
+```
+
 ## Author
 
 Daniel, daniel.prolite@gmail.com
